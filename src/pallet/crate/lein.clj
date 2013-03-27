@@ -62,4 +62,4 @@
   [settings]
   (server-spec
    :phases {:settings (plan-fn (lein-settings settings))
-            :configure (plan-fn (install-lein))}))
+            :install (plan-fn (install-lein))}))
